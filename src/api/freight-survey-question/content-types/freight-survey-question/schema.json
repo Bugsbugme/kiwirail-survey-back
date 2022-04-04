@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "freight_survey_questions",
+  "info": {
+    "singularName": "freight-survey-question",
+    "pluralName": "freight-survey-questions",
+    "displayName": "Freight Survey Question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Question": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
