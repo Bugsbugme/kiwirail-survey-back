@@ -4,7 +4,8 @@
   "info": {
     "singularName": "freight-survey-question",
     "pluralName": "freight-survey-questions",
-    "displayName": "Freight Survey Question"
+    "displayName": "Freight Survey Question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,8 +18,7 @@
       "unique": false
     },
     "Question": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     }
   }
 }

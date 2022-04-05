@@ -4,7 +4,8 @@
   "info": {
     "singularName": "passenger-survey-question",
     "pluralName": "passenger-survey-questions",
-    "displayName": "Passenger Survey Question"
+    "displayName": "Passenger Survey Question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,8 +17,7 @@
       "required": true
     },
     "Question": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     }
   }
 }
